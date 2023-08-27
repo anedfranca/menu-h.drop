@@ -1,0 +1,63 @@
+:root{ 
+    --cor-fundo: MistyRose;
+    --cor-primaria:DeepPink;
+}
+.dp-menu{
+    background-color: var(--cor-fundo);
+}
+
+.dp-menu ul {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.dp-menu ul{
+    list-style-type: none;
+    padding: 0;
+    max-width: 800px;
+}
+
+.dp-menu ul{
+    background-color: var(--cor-fundo);
+    padding: 15px;
+}
+
+.dp-menu ul li{
+    display: inline;
+    position: relative;
+}
+
+.dp-menu ul li a{
+    color: var(--cor-primaria);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+ }
+ 
+ .dp-menu ul li a:hover {
+    font-weight: bold;
+ }
+
+ .dp-menu ul ul{
+    display: none;
+    left: 0;
+    position: absolute;
+
+ }
+
+ .dp-menu ul li:hover ul{
+    display: block;
+ }
+
+ .dp-menu ul ul {
+    width: 100px;
+ }
+
+ .dp-menu ul ul li a {
+    display: block;
+ }
+
+ .entrar{
+    float: right;
+    
+ }
